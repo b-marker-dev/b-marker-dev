@@ -1,5 +1,5 @@
 ## Hi there 👋
-##BMarker: A Time Conversion Tool
+BMarker: A Time Conversion Tool
 Why Build This?
 While developing music production tools, I discovered a critical pain point: every creative software uses different time units.Video relies on frames, music on beats, audio on samples...What if there was a universal language for time across all media?
 Core Features (Just 4 Functions)
