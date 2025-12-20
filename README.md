@@ -320,7 +320,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 |-----------|--------------------|
 | 開發語言 Language | Python 3.6+ |
 | 依賴框架 Framework | 無需額外框架（輕量級設計） |
-| 核心演算法 Core Algorithm | 1ns 納秒級時間計算精度 |
+| 核心演算法 Core Algorithm | 基於44.1/48kHz的音頻時間轉換 |
 | 部署方式 Deployment | GitHub Pages / 跨平台打包（Windows/macOS/Linux） |
 
 ---
