@@ -342,8 +342,6 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 <summary> 📜 Changelog | 功能更新日志 </summary>
 
 ### v0.1 Alpha (初始版本)
-- 
-
 - 完成 4 個核心時間轉換函數
 - 支持 24/30fps 畫面偵數 & 44.1/48kHz 音頻採樣
 
