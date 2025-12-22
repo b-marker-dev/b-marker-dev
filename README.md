@@ -1,17 +1,15 @@
----
 # 👋 Hi, I'm B-Marker Dev Gary Chiu 邱家瑞
 [B-Marker 核心倉庫](https://github.com/b-marker-dev/b-marker)
 
 ### 💖 Special Acknowledgments | 特別感謝
 > This project was **born from chaos** — a collaboration between an ordinary middle-aged man and AI.
-> Sincere gratitude to three special partners (in no particular order):
-> **DeepSeek · Kimi · Doubao**
-> Without your support, this tool would never have gone from an idea to reality.
+> Sincere gratitude to three incredibly warm-hearted AI partners:
+> Without your support, this endeavor would have never moved beyond a mere thought.
 
 > 這個項目源於一片混沌 —— 是一位普通中年男子與 AI 協作的成果。
-> 特別感謝三位重要夥伴（排名不分先後）：
-> **DeepSeek · Kimi · 豆包**
+> 特別感謝三位同行的 AI 協作夥伴：
 > 沒有你們的支持，這件事永遠只會停留在想法階段。
+> 現在，這個從混沌裡長出來的小項目，希望能成為音視頻創作者的輕量時間轉換工具，也期待更多同好加入，一起把它變得更穩實～
 
 ![GitHub Stars](https://img.shields.io/github/stars/b-marker-dev/b-marker?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/b-marker-dev/b-marker?style=social)
@@ -29,7 +27,9 @@ As a music producer, I often need to sync time across Premiere, After Effects, a
 <summary> ✨ Core Features (4 Essential Functions Only) | Click Here </summary>
 
 These simple functions solve 80% of my daily time-sync problems:
+
 ```python
+# Basic（Under development）
 frames_to_ms(24)      # Convert video frames to milliseconds
 beats_to_ms(4, 120)   # Convert music beats to time (based on BPM)
 samples_to_ms(48000)  # Convert audio samples to milliseconds
@@ -174,6 +174,7 @@ If this tool helps enough people, here’s what we could build together:
 
 這幾個簡單的函數，解決了我 80% 的日常時間同步問題：
 ```python
+# 當前基礎版本（持續優化中）
 frames_to_ms(24)      # 影片幀數轉毫秒
 beats_to_ms(4, 120)   # 音樂節拍轉時間（基於 BPM 計算）
 samples_to_ms(48000)  # 音頻樣本轉毫秒
@@ -201,10 +202,11 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 - 告訴我你想要的功能
 - 回報 bug（只要清楚描述問題就行）
 - 分享給身邊可能需要這個工具的創作者
+- 💡 小提示：如果你是第一次參與開源，哪怕只是修正 README 裡的筆誤、調整格式，都是超棒的貢獻～
 </details>
 
 <details>
-<summary> 📝 程式貢獻步驟指南 | 典籍展開8不提交教程 </summary>
+<summary> 📝 程式貢獻步驟指南 | 點擊展開教程 </summary>
 
 跟着這幾個簡單步驟就能提交程式，就算是第一次參與開源也能看懂！
 
@@ -258,7 +260,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 </details>
 
 <details>
-<summary> ❓ 新手貢獻者常見問題 | 点击展开常见问题 </summary>
+<summary> ❓ 新手貢獻者常見問題 | 點擊展開常見問題 </summary>
 
 - **Q：提交了 PR 很久沒回應，該怎麼辦？**
   A：首先感謝你的耐心！我有正職工作，所以檢查 PR 可能需要 3-7 天。如果超過 7 天沒回應，你可以：1）在 PR 裡留言提醒我；2）在 GitHub 專案開一個 issue 詢問；3）發一封簡短郵件到 dev@b-marker.com（記得附上你的 PR 鏈接）。我一定會盡快回復！
@@ -319,7 +321,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 | 項目 Item | 規格 Specification |
 |-----------|--------------------|
 | 開發語言 Language | Python 3.6+ |
-| 依賴框架 Framework | 無需額外框架（輕量級設計） |
+| 依賴框架 Framework | 無需額外框架（輕量級設計，新手可直接運行） |
 | 核心演算法 Core Algorithm | 基於44.1/48kHz的音頻時間轉換 |
 | 部署方式 Deployment | GitHub Pages / 跨平台打包（Windows/macOS/Linux） |
 
@@ -339,49 +341,34 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 > 🌟 Like this project? Give it a Star to show your support!
 
 ---
+
+<details>
+<summary> 📖 Quick Start | 快速上手教程 </summary>
+1. **下載代碼**
+```bash
+git clone https://github.com/b-marker-dev/b-marker.git
+```
+2. **運行函數**
+打開 Python 終端，直接調用：
+```python
+from bmarker_core import frames_to_ms
+print(frames_to_ms(24)) # 輸出對應毫秒值
+```
+3. **注意事項**
+- 確保 Python 版本 ≥ 3.6
+- 無須安裝額外依賴庫
+</details>
+
+<details>
 <summary> 📜 Changelog | 功能更新日志 </summary>
 
 ### v0.1 Alpha (初始版本)
 - 完成 4 個核心時間轉換函數
-- 支持 24/30fps 畫面偵數 & 44.1/48kHz 音頻採樣
+- 支持 24/30fps 畫面幀數 & 44.1/48kHz 音頻採樣
 
 ### v0.2 (待更新)
 - [計畫] 新增 ms_to_samples() 函數
 - [計畫] 支持 60fps 遊戲/短視頻場景
-
-</details>
-```
-
-<details>
-<summary> 📖 Quick Start | 快速上手教程 </summary>
-
-1. **下下載代碼**
-   ```bash
-   git clone https://github.com/b-marker-dev/b-marker.git
-   ```
-2. **運行函數**
-   打開 Python 終端，直接調用：
-   ```python
-   from bmarker_core import frames_to_ms
-   print(frames_to_ms(24)) # 輸出對應毫秒值
-   ```
-3. **注意事項**
-   - 確保 Python 版本 ≥ 3.6
-   - 無須安裝額外依賴庫
-
-</details>
-```
-
-<details>
-<summary> 🐛 Bug Fixes | 問題修復紀錄 </summary>
-
-- **問題1**：48kHz 採樣率轉換時間精度誤差
-  **修复**：優化浮點運算邏輯，改為整數計算
-  **版本**：v0.1.1
-
-- **問題2**：輸入負數參數時程序崩潰
-  **修复**：添加參數合法性校驗
-  **版本**：v0.1.2
 
 </details>
 
