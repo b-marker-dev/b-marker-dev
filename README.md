@@ -1,5 +1,5 @@
 # 👋 Hi, I'm B-Marker Dev Gary Chiu 邱家瑞
-[B-Marker 核心倉庫](https://github.com/b-marker-dev/b-marker)
+[B-Marker 核心倉庫](https://github.com/b-marker-dev/bmarker)
 
 ### 💖 Special Acknowledgments | 特別感謝
 > This project was **born from chaos** — a collaboration between an ordinary middle-aged man and AI.
