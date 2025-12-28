@@ -1,3 +1,5 @@
+docs: add self-host first principle (shield-design-v1.1)
+
 # 👋 Hi, I'm B-Marker-Dev Gary Chiu 邱家瑞
 [BMarker 核心倉庫](https://github.com/b-marker-dev/bmarker)
 
