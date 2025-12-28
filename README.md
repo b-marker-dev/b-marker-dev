@@ -1,5 +1,5 @@
-# 👋 Hi, I'm B-Marker Dev Gary Chiu 邱家瑞
-[B-Marker 核心倉庫](https://github.com/b-marker-dev/bmarker)
+# 👋 Hi, I'm B-Marker-Dev Gary Chiu 邱家瑞
+[BMarker 核心倉庫](https://github.com/b-marker-dev/bmarker)
 
 ### 💖 Special Acknowledgments | 特別感謝
 > This project was **born from chaos** — a collaboration between an ordinary middle-aged man and AI.
@@ -11,9 +11,9 @@
 > 沒有你們的支持，這件事永遠只會停留在想法階段。
 > 現在，這個從混沌裡長出來的小項目，希望能成為音視頻創作者的輕量時間轉換工具，也期待更多同好加入，一起把它變得更穩實～
 
-![GitHub Stars](https://img.shields.io/github/stars/b-marker-dev/b-marker?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/b-marker-dev/b-marker?style=social)
-![License](https://img.shields.io/github/license/b-marker-dev/b-marker)
+![GitHub Stars](https://img.shields.io/github/stars/b-marker-dev/bmarker?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/b-marker-dev/bmarker?style=social)
+![License](https://img.shields.io/github/license/b-marker-dev/bmarker)
 
 ---
 
@@ -65,20 +65,20 @@ ms_to_frames(1000)    # Convert milliseconds back to video frames
 Follow these simple steps to submit your code — even if you’re new to open source!
 
 1. **Fork the Repository**
-   Go to the B-Marker GitHub page: [https://github.com/b-marker-dev/b-marker](https://github.com/b-marker-dev/b-marker)
+   Go to the BMarker GitHub page: [https://github.com/b-marker-dev/bmarker](https://github.com/b-marker-dev/bmarker)
    Click the "Fork" button in the top-right corner. This creates a copy of the project in your own GitHub account.
 
 2. **Clone Your Fork to Local**
    Open your terminal/command prompt, run this command (replace [your-username] with your GitHub username):
    ```bash
-   git clone https://github.com/[your-username]/b-marker.git
+   git clone https://github.com/[your-username]/bmarker.git
    ```
    This downloads the project to your computer.
 
 3. **Create a New Branch**
    Enter the project folder and create a new branch (use a name that describes your change):
    ```bash
-   cd b-marker
+   cd bmarker
    git checkout -b your-branch-name
    ```
 
@@ -211,20 +211,20 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 跟着這幾個簡單步驟就能提交程式，就算是第一次參與開源也能看懂！
 
 1. **Fork 專案庫**
-   打開 B-Marker 的 GitHub 頁面：[https://github.com/b-marker-dev/b-marker](https://github.com/b-marker-dev/b-marker)
+   打開 B-Marker 的 GitHub 頁面：[https://github.com/b-marker-dev/bmarker](https://github.com/b-marker-dev/bmarker)
    點擊右上角的「Fork」按鈕，把專案複製到你自己的 GitHub 帳號裡。
 
 2. **把 Fork 下載到本地電腦**
    打開終端機/命令提示字元，執行以下指令（把 [你的使用者名稱] 替換成你的 GitHub 使用者名稱）：
    ```bash
-   git clone https://github.com/[你的使用者名稱]/b-marker.git
+   git clone https://github.com/[你的使用者名稱]/bmarker.git
    ```
    這一步會把專案下載到你的電腦裡。
 
 3. **建立新分支**
    進入專案資料夾，建立一個新的分支（分支名稱要能說明你的修改）：
    ```bash
-   cd b-marker
+   cd bmarker
    git checkout -b 你的分支名稱
    ```
 
@@ -249,7 +249,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
    ```
 
 8. **建立 Pull Request (PR) 請求合併**
-   回到原本的 B-Marker 專案庫。頁面會彈出一個提示，顯示你的新分支可以「Compare & pull request」—— 點擊它。
+   回到原本的 BMarker 專案庫。頁面會彈出一個提示，顯示你的新分支可以「Compare & pull request」—— 點擊它。
    在 PR 描述裡，告訴我們：
    - 你做了哪些修改
    - 為什麼做這些修改
@@ -311,7 +311,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 | 平台 Platform | 地址 Address |
 |---------------|--------------|
 | 官方網站 Official Website | [b-marker.com](https://b-marker.com) |
-| 核心倉庫 Core Repository | [GitHub - b-marker](https://github.com/b-marker-dev/b-marker) |
+| 核心倉庫 Core Repository | [GitHub - bmarker](https://github.com/b-marker-dev/bmarker) |
 | 使用文檔 Documentation | [Docs - b-marker.com/docs](https://b-marker.com/docs) |
 | 社區交流 Community | [Discord](https://discord.gg/E4rnzGhfY) |
 
@@ -346,7 +346,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 <summary> 📖 Quick Start | 快速上手教程 </summary>
 1. **下載代碼**
 ```bash
-git clone https://github.com/b-marker-dev/b-marker.git
+git clone https://github.com/b-marker-dev/bmarker.git
 ```
 2. **運行函數**
 打開 Python 終端，直接調用：
