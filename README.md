@@ -327,6 +327,21 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 
 ---
 
+<details>
+<summary>🛡️ 公開設計原則 Public Design Principles</summary>
+
+### 繁體中文
+1. 模型可插拔：底層 LLM 可隨時置換，不綁死單一供應商。  
+2. 成本動態浮動：流量區間變化時，觸發閾值由內部 SLA 即時調整，不對外公開數字。  
+3. 失效即逃生：一旦成本或可用性跌破內部紅線，自動降級或切換通道，細節托管於 dev 私有分支。
+
+### English
+1. Model-pluggable: the underlying LLM can be swapped at any time — no vendor lock-in.  
+2. Cost dynamic bands: thresholds auto-adjust with traffic tiers per internal SLA; exact numbers remain private.  
+3. Fail-safe escape hatch: if cost or availability drops below internal redlines, we auto-fallback or reroute; details live in the private dev branch.
+
+</details>
+
 ## 💡 Core Philosophy | 核心理念
 - 🎧 **Audio is one of the oldest and most profound forms of communication for humanity.** If we could weave time with audio, it would mark a new chapter in human creativity.
   **音頻是人類最古老、最深刻的溝通方式之一。** 如果能夠用音頻編織時間，那將是人類創造力的新篇章。
