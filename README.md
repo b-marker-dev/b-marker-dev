@@ -333,12 +333,14 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 ### 繁體中文
 1. 模型可插拔：底層 LLM 可隨時置換，不綁死單一供應商。  
 2. 成本動態浮動：流量區間變化時，觸發閾值由內部 SLA 即時調整，不對外公開數字。  
-3. 失效即逃生：一旦成本或可用性跌破內部紅線，自動降級或切換通道，細節托管於 dev 私有分支。
+3. 失效即逃生：一旦成本或可用性跌破內部紅線，自動降級或切換通道，細節托管於 dev 私有分支。  
+4. 基礎設施自託管：工具鏈與數據層優先使用開源或可完全自託管方案，核心工作流的生命週期不受任何單一第三方服務左右。
 
 ### English
 1. Model-pluggable: the underlying LLM can be swapped at any time — no vendor lock-in.  
 2. Cost dynamic bands: thresholds auto-adjust with traffic tiers per internal SLA; exact numbers remain private.  
-3. Fail-safe escape hatch: if cost or availability drops below internal redlines, we auto-fallback or reroute; details live in the private dev branch.
+3. Fail-safe escape hatch: if cost or availability drops below internal redlines, we auto-fallback or reroute; details live in the private dev branch.  
+4. Self-host first: for toolchain and data layer we favor open-source or fully self-hostable components, so our core workflow lifespan is never tied to a single third-party service.
 
 </details>
 
