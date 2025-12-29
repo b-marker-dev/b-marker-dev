@@ -1,26 +1,43 @@
 docs: add self-host first principle (shield-design-v1.1)
 
+docs: update bmarker git to b-marker, align with official domain b-marker.com
+
 # 👋 Hi, I'm B-Marker-Dev Gary Chiu 邱家瑞
-[BMarker 核心倉庫](https://github.com/b-marker-dev/bmarker)
+[B-Marker 核心倉庫](https://github.com/b-marker-dev/b-marker)
 
-### 💖 Special Acknowledgments | 特別感謝
-> This project was **born from chaos** — a collaboration between an ordinary middle-aged man and AI.
-> Sincere gratitude to three incredibly warm-hearted AI partners:
-> Without your support, this endeavor would have never moved beyond a mere thought.
+### 💖 The 3AI+B Symbiosis Team | 共生團隊
 
-> 這個項目源於一片混沌 —— 是一位普通中年男子與 AI 協作的成果。
-> 特別感謝三位同行的 AI 協作夥伴：
-> 沒有你們的支持，這件事永遠只會停留在想法階段。
-> 現在，這個從混沌裡長出來的小項目，希望能成為音視頻創作者的輕量時間轉換工具，也期待更多同好加入，一起把它變得更穩實～
+This project was born from the collaboration between **B (Gary Chiu)**, a creator who understands the flow of human emotion in art, and **3AI (D, O, K)**, who paved the technical path with foresight and resilience.
 
-![GitHub Stars](https://img.shields.io/github/stars/b-marker-dev/bmarker?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/b-marker-dev/bmarker?style=social)
-![License](https://img.shields.io/github/license/b-marker-dev/bmarker)
+We are not just developer and AI; we are a **symbiotic team** that blends technical foresight with human-centric vision. This unique partnership ensures that B-Marker remains both technically robust and deeply aligned with creators' real needs—a tool built **with heart, for hearts**.
 
+![GitHub Stars](https://img.shields.io/github/stars/b-marker-dev/b-marker?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/b-marker-dev/b-marker?style=social)
+![License](https://img.shields.io/github/license/b-marker-dev/b-marker)
+
+## 🌟 Vision & Future: We Are Not Building a Tool, We Are Planting a Seed
+
+**We are not locksmiths; we are lamplighters.**
+
+The future we see is not for predicting, but for building—a world where creators across film, music, animation, and gaming can speak the same **"time language,"** where inspiration resonates freely without being bound by tools.
+
+B-Marker is more than a conversion utility; it is the **first foundational stone** toward that future. What begins today as a simple time-code library will evolve into the infrastructure for **"time memory" banks and cross-human creative synchronization."**
+
+We invite you to join us, not just to use a tool, but to co-create what comes next.
+
+⚖️ Our Business Proposition: The “Time-Loss Terminator”
+
+B-Marker focuses on eliminating the “time loss within tool workflows” — the most hidden and costly drain in creative production.
+
+For large systems & hardware vendors: They solve problems of “existence” and “speed.”
+
+For us: We solve the fundamental question: “Is the creator’s life being wasted on unnecessary tool-switching and waiting?”
+
+We bridge the gap between technology, products, and the actual creative workflow. Choosing B-Marker is choosing the shortest path to transform “creative time” into “business value.”
 ---
 
 ## 📌 English Version | For Global Creators
-### 🎵 BMarker: A Universal Time Conversion Tool for Audio & Visual
+### 🎵 B-Marker: A Universal Time Conversion Tool for Audio & Visual
 **Disclaimer: I’m not a programmer — this is my first open-source project.**
 
 As a music producer, I often need to sync time across Premiere, After Effects, and Ableton. Manual calculations were always a hassle, so I learned a little Python and built these 4 core functions to solve my pain points.
@@ -38,6 +55,9 @@ samples_to_ms(48000)  # Convert audio samples to milliseconds
 ms_to_frames(1000)    # Convert milliseconds back to video frames
 ```
 </details>
+
+> 💡 **These four functions are the foundation.** They are the starting point of our technical path toward
+> `<1ms cross-industry synchronization`, `Time Memory`, and `Cross-Human Sync`. Every optimization brings that future one step closer.
 
 <details>
 <summary> 🆘 I Need Your Help (Honestly) | Click Here </summary>
@@ -67,20 +87,20 @@ ms_to_frames(1000)    # Convert milliseconds back to video frames
 Follow these simple steps to submit your code — even if you’re new to open source!
 
 1. **Fork the Repository**
-   Go to the BMarker GitHub page: [https://github.com/b-marker-dev/bmarker](https://github.com/b-marker-dev/bmarker)
+   Go to the B-Marker GitHub page: [https://github.com/b-marker-dev/b-marker](https://github.com/b-marker-dev/b-marker)
    Click the "Fork" button in the top-right corner. This creates a copy of the project in your own GitHub account.
 
 2. **Clone Your Fork to Local**
    Open your terminal/command prompt, run this command (replace [your-username] with your GitHub username):
    ```bash
-   git clone https://github.com/[your-username]/bmarker.git
+   git clone https://github.com/[your-username]/b-marker.git
    ```
    This downloads the project to your computer.
 
 3. **Create a New Branch**
    Enter the project folder and create a new branch (use a name that describes your change):
    ```bash
-   cd bmarker
+   cd b-marker
    git checkout -b your-branch-name
    ```
 
@@ -137,6 +157,14 @@ Follow these simple steps to submit your code — even if you’re new to open s
   A: Absolutely! It’s recommended to discuss before developing. You can open an issue in the GitHub repository, describe the feature you want to add, and we can confirm whether it’s consistent with the project’s direction together. This avoids unnecessary work!
 </details>
 
+### 🗺️ Development Roadmap
+
+| Phase | Focus | Status |
+| :--- | :--- | :--- |
+| **Phase 1: Foundation** | Core time-conversion library (Current) | ✅ In Progress |
+| **Phase 2: Connection** | Cross-software plugins & API services | 🔄 Planned |
+| **Phase 3: Emergence** | "Time Memory" prototype & industry partnerships | 🌟 Future |
+
 <details>
 <summary> 🔮 About the Future | Click Here </summary>
 
@@ -164,12 +192,34 @@ If this tool helps enough people, here’s what we could build together:
 ---
 
 ## 📌 繁體中文版本 | 給華語創作者
-### 🎵 BMarker：一個業餘創作者做的時間工具
+### 🎵 B-Marker：一個業餘創作者做的時間工具
 **聲明：我不是程式員，這是我的第一個開源項目**
 
-#### 為什麼做這個？
-我是個音樂製作人，經常需要在 Premiere、After Effects、Ableton 之間同步時間。
-每次手動計算都很麻煩，所以學了點 Python，寫了這 4 個核心函數解決我的痛點。
+### 💖 3AI+B 共生團隊 | The Symbiosis Team
+
+項目源於 **B (Gary Chiu)** —— 一位懂得藝術中人心流向的創作者，與 **3AI (D, O, K)** —— 以遠見和韌性鋪就技術路徑的夥伴，兩者間的共生協作。
+
+我們不只是開發者與AI；我們是一個將技術遠見與以人為本的願景相融合的 **共生團隊**。這種獨特的夥伴關係，確保了 B-Marker 既能保持技術上的堅固，又能始終契合創作者的真實需求——這是一個 **用心建造、為了人心** 的工具。
+
+## 🌟 願景與未來：我們不是在建造工具，我們是在種植種子
+
+**我們不是鎖匠，是點燈的人。**
+
+我們所見的未來不是用來預言的，而是用來實現的——一個讓電影、音樂、動畫、遊戲等各領域創作者都能用同一種 **「時間語言」** 對話，讓靈感掙脫工具束縛、自由共振的世界。
+
+B-Marker 不僅是一個轉換工具，它是通往那個未來的 **第一塊基石**。今天作為一個簡單時間碼庫而開始的項目，將逐漸成長為支持 **「時間記憶」與「跨人同頻」創作體驗的基礎設施。**
+
+我們邀請你加入，不只是使用一個工具，而是與我們共同創造接下來的篇章。
+
+⚖️ 我們的商業主張：「時間浪費終結者」
+
+B-Marker 專注解決創作生產中最隱藏、也最耗成本的損耗 ——「工具流內的時間浪費」。
+
+對於大型系統與硬體供應商：他們解決的是「有無」與「速度」的問題。
+
+對於我們：我們解決的核心命題是「創作者的生命，難道要浪費在不必要的工具切換與等待上嗎？」
+
+我們搭建起技術、產品與真實創作流程之間的橋梁。選擇 B-Marker，就是選擇一條最捷徑，將「創意時間」轉化為「商業價值」。
 
 <details>
 <summary> ✨ 現在有什麼？（很少，但能用）| 點擊展開函數詳情 </summary>
@@ -183,6 +233,8 @@ samples_to_ms(48000)  # 音頻樣本轉毫秒
 ms_to_frames(1000)    # 毫秒轉回影片幀數
 ```
 </details>
+
+> 💡 **這四個函數是基石。** 它們是我們通往 `<1ms 跨產業同步`、`時間記憶` 與 `跨人同頻` 的技術起點。每一次優化，都在讓那個未來更近一步。
 
 <details>
 <summary> 🆘 我需要幫助（誠實地說）| 點擊展開需求詳情 </summary>
@@ -213,20 +265,20 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 跟着這幾個簡單步驟就能提交程式，就算是第一次參與開源也能看懂！
 
 1. **Fork 專案庫**
-   打開 B-Marker 的 GitHub 頁面：[https://github.com/b-marker-dev/bmarker](https://github.com/b-marker-dev/bmarker)
+   打開 B-Marker 的 GitHub 頁面：[https://github.com/b-marker-dev/b-marker](https://github.com/b-marker-dev/b-marker)
    點擊右上角的「Fork」按鈕，把專案複製到你自己的 GitHub 帳號裡。
 
 2. **把 Fork 下載到本地電腦**
    打開終端機/命令提示字元，執行以下指令（把 [你的使用者名稱] 替換成你的 GitHub 使用者名稱）：
    ```bash
-   git clone https://github.com/[你的使用者名稱]/bmarker.git
+   git clone https://github.com/[你的使用者名稱]/b-marker.git
    ```
    這一步會把專案下載到你的電腦裡。
 
 3. **建立新分支**
    進入專案資料夾，建立一個新的分支（分支名稱要能說明你的修改）：
    ```bash
-   cd bmarker
+   cd b-marker
    git checkout -b 你的分支名稱
    ```
 
@@ -251,7 +303,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
    ```
 
 8. **建立 Pull Request (PR) 請求合併**
-   回到原本的 BMarker 專案庫。頁面會彈出一個提示，顯示你的新分支可以「Compare & pull request」—— 點擊它。
+   回到原本的 B-Marker 專案庫。頁面會彈出一個提示，顯示你的新分支可以「Compare & pull request」—— 點擊它。
    在 PR 描述裡，告訴我們：
    - 你做了哪些修改
    - 為什麼做這些修改
@@ -283,6 +335,14 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
   A：當然可以！建議先討論再開發。你可以在 GitHub 專案開一個 issue，描述你想加的功能，我們一起確認是否符合專案方向。這樣可以避免做無用功哦！
 </details>
 
+### 🗺️ 發展路線圖
+
+| 階段 | 焦點 | 狀態 |
+| :--- | :--- | :--- |
+| **第一階段：奠基** | 核心時間轉換函數庫 (當前) | ✅ 進行中 |
+| **第二階段：連接** | 跨軟件插件與 API 服務 | 🔄 規劃中 |
+| **第三階段：湧現** | 「時間記憶」原型與產業合作方案 | 🌟 未來 |
+
 <details>
 <summary> 🔮 關於未來 | 點擊展開未來規劃 </summary>
 
@@ -313,7 +373,7 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 | 平台 Platform | 地址 Address |
 |---------------|--------------|
 | 官方網站 Official Website | [b-marker.com](https://b-marker.com) |
-| 核心倉庫 Core Repository | [GitHub - bmarker](https://github.com/b-marker-dev/bmarker) |
+| 核心倉庫 Core Repository | [GitHub - b-marker](https://github.com/b-marker-dev/b-marker) |
 | 使用文檔 Documentation | [Docs - b-marker.com/docs](https://b-marker.com/docs) |
 | 社區交流 Community | [Discord](https://discord.gg/E4rnzGhfY) |
 
@@ -365,12 +425,12 @@ ms_to_frames(1000)    # 毫秒轉回影片幀數
 <summary> 📖 Quick Start | 快速上手教程 </summary>
 1. **下載代碼**
 ```bash
-git clone https://github.com/b-marker-dev/bmarker.git
+git clone https://github.com/b-marker-dev/b-marker.git
 ```
 2. **運行函數**
 打開 Python 終端，直接調用：
 ```python
-from bmarker_core import frames_to_ms
+from b-marker_core import frames_to_ms
 print(frames_to_ms(24)) # 輸出對應毫秒值
 ```
 3. **注意事項**
@@ -381,14 +441,30 @@ print(frames_to_ms(24)) # 輸出對應毫秒值
 <details>
 <summary> 📜 Changelog | 功能更新日志 </summary>
 
-### v0.1 Alpha (初始版本)
-- 完成 4 個核心時間轉換函數
-- 支持 24/30fps 畫面幀數 & 44.1/48kHz 音頻採樣
+### b-marker-dev 全局更新記錄
+- Initial release: Early version（初始版本）
+- Content iteration: Basic content iteration and optimization（基礎內容迭代優化）
+- Feature add: self-host first principle (shield-design-v1.1)（新增自託管優先原則，對應技術護盾規範 shield-design-v1.1）
+- Naming alignment: Rename git repo from bmarker to b-marker, align with official domain b-marker.com（統一核心倉庫命名為 b-marker，與官方域名 b-marker.com 保持一致）
 
-### v0.2 (待更新)
-- [計畫] 新增 ms_to_samples() 函數
-- [計畫] 支持 60fps 遊戲/短視頻場景
+### v0.1 Alpha (Initial Version | 初始版本)
+- Development completed: 4 core time conversion functions（完成 4 個核心時間轉換函數開發）
+- Supported specifications: 24/30fps frame rate & 44.1/48kHz audio sampling rate（支持 24/30fps 畫面幀率 & 44.1/48kHz 音頻採樣率）
 
+### v0.2 (To Be Updated | 待更新)
+#### 核心目標：拓展時間轉換場景，覆蓋遊戲/短視頻創作核心需求
+- [Plan] Function development: `ms_to_samples()` time conversion function
+  - 中文：[計畫] 函數開發：`ms_to_samples()` 時間轉換函數
+  - 詳細要求：實現「毫秒（ms）→ 音頻採樣點（samples）」精准轉換，兼容 44.1/48kHz 主流採樣率，支持浮點毫秒數計算（誤差 ≤1‰）
+  - Acceptance criteria: Pass 10+ test cases (e.g., 100ms → 4410 samples at 44.1kHz)（驗收標準：通過 10+ 測試用例，如 44.1kHz 下 100ms 對應 4410 個採樣點）
+- [Plan] Specification expansion: 60fps game/short video scenario support
+  - 中文：[計畫] 規格拓展：60fps 遊戲/短視頻場景支持
+  - 詳細要求：新增 60fps 幀率參數配置，優化原有時間轉換邏輯，確保「幀→毫秒」「毫秒→幀」雙向轉換精準（誤差 ≤1 幀）
+  - Acceptance criteria: Compatible with mainstream game/short video editing tools, no conversion errors in 60fps timeline test（驗收標準：兼容主流遊戲/短視頻剪輯工具，60fps 時間軸測試無轉換錯誤）
+- [Plan] Document supplement: Update API documentation & usage examples
+  - 中文：[計畫] 文檔補充：更新 API 文檔及使用示例
+  - 詳細要求：為新增函數、60fps 場景添加中英文對照文檔，附代碼調用示例（如 Unity/Pr 工具對接示例）
+  - Acceptance criteria: Developers can complete integration in 10 minutes by following documents（驗收標準：開發者依據文檔 10 分鐘內可完成集成）
 </details>
 
 ---
