@@ -11,7 +11,7 @@ author:
   email: dev@b-marker.com
 
 # Theme setting
-theme: chirpy
+theme: minima
 lang: zh-TW 
 # turn on dark mode
 darkmode: true
