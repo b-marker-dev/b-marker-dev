@@ -1,16 +1,16 @@
-# basic info
+# Basic info
 title: b-marker Blog
 tagline: b-marker-dev & team
 description: Our Logs and team works.
 timezone: Asia/Taipei
 
-# 你的信息
+# About
 author:
   name: Gary Chiu
   avatar: https://github.com/b-marker-dev.png
   email: dev@b-marker.com
 
-# 主题配置
+# Theme setting
 theme: chirpy
 lang: zh-TW 
 # turn on dark mode
